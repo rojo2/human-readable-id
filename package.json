@@ -1,0 +1,34 @@
+{
+  "name": "@rojo2/human-readable-id",
+  "version": "1.0.0",
+  "description": "Creates a random human-readable identifier",
+  "main": "dist/human-readable-id.js",
+  "module": "dist/human-readable-id.esm.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "mocha --require @babel/register --require chai/register-expect src/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojo2/human-readable-id.git"
+  },
+  "keywords": [
+    "human",
+    "readable",
+    "id"
+  ],
+  "author": "ROJO 2 <hola@rojo2.com> (https://rojo2.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rojo2/human-readable-id/issues"
+  },
+  "homepage": "https://github.com/rojo2/human-readable-id#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "rollup": "^2.32.1"
+  }
+}
